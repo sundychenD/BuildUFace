@@ -1,7 +1,7 @@
 # Microsoft_MakeCode
 This is the repo to host our project on MakeCode for Microsoft Research.
 
-* Try it live at https://jcspec.github.io/BuildUFace/
+* Try it live at https://sundychend.github.io/BuildUFace/
 
 ## Running locally
 
