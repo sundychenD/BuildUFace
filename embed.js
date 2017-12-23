@@ -7,7 +7,7 @@
     "workerjs": "/BuildUFace/worker.js",
     "tdworkerjs": "/BuildUFace/tdworker.js",
     "monacoworkerjs": "/BuildUFace/monacoworker.js",
-    "pxtVersion": "2.3.39",
+    "pxtVersion": "2.0.31",
     "pxtRelId": "",
     "pxtCdnUrl": "/BuildUFace/",
     "commitCdnUrl": "/BuildUFace/",

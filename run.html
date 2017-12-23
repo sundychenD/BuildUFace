@@ -85,7 +85,7 @@
     "workerjs": "/BuildUFace/worker.js",
     "tdworkerjs": "/BuildUFace/tdworker.js",
     "monacoworkerjs": "/BuildUFace/monacoworker.js",
-    "pxtVersion": "2.3.39",
+    "pxtVersion": "2.0.31",
     "pxtRelId": "",
     "pxtCdnUrl": "/BuildUFace/",
     "commitCdnUrl": "/BuildUFace/",
@@ -117,16 +117,9 @@
 
         if (!id && !code && !debugSim) {
             console.error("missing id or code");
-            loading.textContent = 'Oops, wrong arguments...';
+            loading.innerText = 'Oops, wrong arguments...';
             return;
         }
-
-        function initAppCache() {
-            window.applicationCache.addEventListener('updateready', () => {
-                window.location.reload();
-            });
-        }
-        initAppCache();
 
         ksRunnerReady(function() {
             var theme = pxt.appTarget.appTheme;
